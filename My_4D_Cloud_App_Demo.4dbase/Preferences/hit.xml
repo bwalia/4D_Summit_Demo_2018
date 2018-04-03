@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<hit>
+
+  <config>
+    <server>
+      <http>
+        <web_root_path></web_root_path>
+        <host_ip_addr>127.0.0.1</host_ip_addr>
+        <port>8080</port>
+        <auto_start>true</auto_start>
+        <auto_set_ip>false</auto_set_ip>
+        <ssl_enabled>false</ssl_enabled>
+        <ssl_port>84444</ssl_port>
+        <workers_thread_count>20</workers_thread_count>
+        <stack_size>524288</stack_size>
+        <allow_frgold_scripts>true</allow_frgold_scripts>
+        <tokens>
+        <allow_tokens_in_scripts>true</allow_tokens_in_scripts>
+        <tokens_table_name>tokens</tokens_table_name>
+        <tokens_code_field_name>code</tokens_code_field_name>
+        <tokens_content_field_name>contentTxt</tokens_content_field_name>
+        </tokens>
+     </http>
+    </server>
+  </config>
+
+</hit>
